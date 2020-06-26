@@ -27,6 +27,7 @@
 > Link to documentation: [https://developer.wordpress.org/plugins/javascript/ajax/](https://developer.wordpress.org/plugins/javascript/ajax/)
 
 > Variables 
+---
 * ```$url``` - url to send post messages to CRM ([https://leads.vehicleapprovalcentre.ca/tradingapi/api/DirectPost/PostRequest](https://leads.vehicleapprovalcentre.ca/tradingapi/api/DirectPost/PostRequest))
 ---
 * ```$data``` - returned array with form
@@ -59,6 +60,10 @@
     - ```'TradeIn' => $_POST['CRM']['TradeIn']``` ***(string, data from form)***
 ---
 * ```$options``` - array options to send post. Link to documentation: [https://www.w3schools.com/php/func_network_header.asp](https://www.w3schools.com/php/func_network_header.asp)
+---
 * ```$context``` - creates and returns a stream context with any options supplied in options preset. Options (```$options```) must be an associative array of associative arrays in 			   the format ```$arr['wrapper']['option']``` = $value. It defaults to an empty array.
+---
 * ```$result``` - ```file_get_contents()```, see documentation php: [https://www.php.net/manual/en/function.file-get-contents.php](https://www.php.net/manual/en/function.file-get-contents.php)
+---
 * ```wp_die()``` - indicate the function that the processing is completed
+---
