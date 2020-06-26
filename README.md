@@ -8,15 +8,15 @@
 > To send email from the feedback form, we used the **Contact Form 7** plugin. Link for documentation: [https://contactform7.com/](https://contactform7.com/)
 
 * Fields :
-1. Your name : [text-839],
-2. Your phone : [text-840],
-3. Email address : [email-123]
+1. ```Your name : [text-839],```
+2. ```Your phone : [text-840],```
+3. ```Email address : [email-123]```
 
 > Integration to CRM. Link: [https://leads.vehicleapprovalcentre.ca/](https://leads.vehicleapprovalcentre.ca/)
 
 > Executable file: ```site_dir/wp-content/themes/marshal/functions.php```
 
-* Display function: ```kviz_1()```
+* Display function: *** ```kviz_1()``` ***
 
 * Input data:
 1. Method : ```POST```
