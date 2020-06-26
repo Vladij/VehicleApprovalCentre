@@ -30,8 +30,8 @@
 * ```$url``` - url to send post messages to CRM ([https://leads.vehicleapprovalcentre.ca/tradingapi/api/DirectPost/PostRequest](https://leads.vehicleapprovalcentre.ca/tradingapi/api/DirectPost/PostRequest))
 ---
 * ```$data``` - returned array with form
-- ```fields from $data :
-    - 'MinimumBidPrice' => 0.00``` _(integer, default 0.00)_
+- ```fields from $data :```
+    ```- 'MinimumBidPrice' => 0.00``` _(integer, default 0.00)_
     ```- 'LeadTypeId' => 6``` _(integer, default 6)_
     ```- 'IsTest' => false``` ***(bool, true/false)***
     ```- 'FirstName' => $_POST['CRM']['FirstName']``` ***(string, data from form)***
