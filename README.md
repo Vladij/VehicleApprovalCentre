@@ -16,7 +16,7 @@
 
 > Executable file: ```site_dir/wp-content/themes/marshal/functions.php```
 
-* Display function: *** ```kviz_1()``` ***
+* Display function: ```kviz_1()```
 
 * Input data:
 1. Method : ```POST```
