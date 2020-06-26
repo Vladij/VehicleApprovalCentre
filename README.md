@@ -16,18 +16,19 @@
 
 > Executable file: ```site_dir/wp-content/themes/marshal/functions.php```
 
-Display function: ```kviz_1()```
+* Display function: ```kviz_1()```
 
-Input data:
-	Method : POST
-	Action :
-		wp_ajax_kviz 		: for authorized user
-		wp_ajax_nopriv_kviz : for not authorized/quest user
-Link to documentation: https://developer.wordpress.org/plugins/javascript/ajax/
+* Input data:
+1. Method : POST
+2. Action :
+    1. wp_ajax_kviz 		: for authorized user
+    2. wp_ajax_nopriv_kviz : for not authorized/quest user
 
-Variables 
-	$url - url to send post messages to CRM (https://leads.vehicleapprovalcentre.ca/tradingapi/api/DirectPost/PostRequest)
-	$data - returned array with form
+> Link to documentation: [https://developer.wordpress.org/plugins/javascript/ajax/](https://developer.wordpress.org/plugins/javascript/ajax/)
+
+> Variables 
+* $url - url to send post messages to CRM ([https://leads.vehicleapprovalcentre.ca/tradingapi/api/DirectPost/PostRequest](https://leads.vehicleapprovalcentre.ca/tradingapi/api/DirectPost/PostRequest))
+* $data - returned array with form
 		fields from $data :
 			'MinimumBidPrice' => 0.00 									(integer, default 0.00)
 			'LeadTypeId' => 6 											(integer, default 6)
@@ -56,7 +57,7 @@ Variables
 			'DOB' => $_POST['CRM']['DOB'] 								(string, data from form)
 			'TradeIn' => $_POST['CRM']['TradeIn'] 						(string, data from form)
 
-	$options - array options to send post. Link to documentation: https://www.w3schools.com/php/func_network_header.asp
-	$context - creates and returns a stream context with any options supplied in options preset. Options ($options) must be an associative array of associative arrays in 			   the format $arr['wrapper']['option'] = $value. It defaults to an empty array.
-	$result - file_get_contents(), see documentation php: https://www.php.net/manual/en/function.file-get-contents.php
-	wp_die() - indicate the function that the processing is completed
+* $options - array options to send post. Link to documentation: https://www.w3schools.com/php/func_network_header.asp
+* $context - creates and returns a stream context with any options supplied in options preset. Options ($options) must be an associative array of associative arrays in 			   the format $arr['wrapper']['option'] = $value. It defaults to an empty array.
+* $result - file_get_contents(), see documentation php: https://www.php.net/manual/en/function.file-get-contents.php
+* wp_die() - indicate the function that the processing is completed
