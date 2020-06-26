@@ -31,13 +31,13 @@
 ---
 * ```$data``` - returned array with form
 - ```fields from $data :```
-    ```- 'MinimumBidPrice' => 0.00``` _(integer, default 0.00)_
-    ```- 'LeadTypeId' => 6``` _(integer, default 6)_
-    ```- 'IsTest' => false``` ***(bool, true/false)***
-    ```- 'FirstName' => $_POST['CRM']['FirstName']``` ***(string, data from form)***
-    ```- 'LastName' => $_POST['CRM']['LastName']``` ***(string, data from form)***
-    ```- 'AddressLine1' => $_POST['CRM']['AddressLine1']``` ***(string, data from form)***
-    ```- 'PostalCode' => $_POST['CRM']['PostalCode']``` ***(string, data from form)***
+    - ```'MinimumBidPrice' => 0.00``` _(integer, default 0.00)_
+    - ```'LeadTypeId' => 6``` _(integer, default 6)_
+    - ```'IsTest' => false``` ***(bool, true/false)***
+    - ```'FirstName' => $_POST['CRM']['FirstName']``` ***(string, data from form)***
+    - ```'LastName' => $_POST['CRM']['LastName']``` ***(string, data from form)***
+    - ```'AddressLine1' => $_POST['CRM']['AddressLine1']``` ***(string, data from form)***
+    - ```'PostalCode' => $_POST['CRM']['PostalCode']``` ***(string, data from form)***
     ```- 'City' => $_POST['CRM']['City']``` ***(string, data from form)***
     ```- 'Province' => $_POST['CRM']['Province']``` ***(string, data from form)***
     ```- 'HomePhone' => $_POST['CRM']['HomePhone']``` ***(string, data from form)***
