@@ -29,7 +29,7 @@
 > Variables 
 * ```$url``` - url to send post messages to CRM ([https://leads.vehicleapprovalcentre.ca/tradingapi/api/DirectPost/PostRequest](https://leads.vehicleapprovalcentre.ca/tradingapi/api/DirectPost/PostRequest))
 * ```$data``` - returned array with form
-- fields from $data :
+- ```fields from $data :
     - 'MinimumBidPrice' => 0.00 									(integer, default 0.00)
     - 'LeadTypeId' => 6 											(integer, default 6)
     - 'IsTest' => false 											(bool, true/false)
@@ -55,7 +55,7 @@
     - 'VehicleBudget' => $_POST['CRM']['VehicleBudget'] 			(string, data from form)
     - 'PassCode' => '*******-****-****-****-**********' 			(string, your passcode for connect to CRM)
     - 'DOB' => $_POST['CRM']['DOB'] 								(string, data from form)
-    - 'TradeIn' => $_POST['CRM']['TradeIn'] 						(string, data from form)
+    - 'TradeIn' => $_POST['CRM']['TradeIn'] 						(string, data from form)```
 
 * ```$options``` - array options to send post. Link to documentation: [https://www.w3schools.com/php/func_network_header.asp](https://www.w3schools.com/php/func_network_header.asp)
 * ```$context``` - creates and returns a stream context with any options supplied in options preset. Options (```$options```) must be an associative array of associative arrays in 			   the format ```$arr['wrapper']['option']``` = $value. It defaults to an empty array.
