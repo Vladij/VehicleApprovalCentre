@@ -6,10 +6,10 @@
 > To use custom field output, we used the **ACF** plugin. Link for documentation: [https://www.advancedcustomfields.com/](https://www.advancedcustomfields.com/) 
 
 > To send email from the feedback form, we used the **Contact Form 7** plugin. Link for documentation: [https://contactform7.com/](https://contactform7.com/)
-> *Fields :
-> >    *Your name 	  : [text-839],
-> >    *Your phone 	  : [text-840],
-> >    *Email address : [email-123]
+*Fields :
+    *Your name : [text-839],
+    *Your phone : [text-840],
+    *Email address : [email-123]
 
 > Integration to CRM. Link: [https://leads.vehicleapprovalcentre.ca/](https://leads.vehicleapprovalcentre.ca/)
 
