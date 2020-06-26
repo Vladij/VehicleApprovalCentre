@@ -21,8 +21,8 @@
 * Input data:
 1. Method : ```POST```
 2. Action :
-    1. ```wp_ajax_kviz``` 		: for authorized user
-    2. ```wp_ajax_nopriv_kviz```: for not authorized/quest user
+    - ```wp_ajax_kviz``` 		: for authorized user
+    - ```wp_ajax_nopriv_kviz```: for not authorized/quest user
 
 > Link to documentation: [https://developer.wordpress.org/plugins/javascript/ajax/](https://developer.wordpress.org/plugins/javascript/ajax/)
 
