@@ -31,8 +31,8 @@
 ---
 * ```$data``` - returned array with form
 - ```fields from $data :
-    - 'MinimumBidPrice' => 0.00 ***(integer, default 0.00)***
-    - 'LeadTypeId' => 6 ***(integer, default 6)***
+    - 'MinimumBidPrice' => 0.00 _(integer, default 0.00)_
+    - 'LeadTypeId' => 6 _(integer, default 6)_
     - 'IsTest' => false ***(bool, true/false)***
     - 'FirstName' => $_POST['CRM']['FirstName'] ***(string, data from form)***
     - 'LastName' => $_POST['CRM']['LastName'] ***(string, data from form)***
