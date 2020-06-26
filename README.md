@@ -31,32 +31,32 @@
 ---
 * ```$data``` - returned array with form
 - ```fields from $data :
-    - 'MinimumBidPrice' => 0.00 _(integer, default 0.00)_
-    - 'LeadTypeId' => 6 _(integer, default 6)_
-    - 'IsTest' => false ***(bool, true/false)***
-    - 'FirstName' => $_POST['CRM']['FirstName'] ***(string, data from form)***
-    - 'LastName' => $_POST['CRM']['LastName'] ***(string, data from form)***
-    - 'AddressLine1' => $_POST['CRM']['AddressLine1'] ***(string, data from form)***
-    - 'PostalCode' => $_POST['CRM']['PostalCode'] ***(string, data from form)***
-    - 'City' => $_POST['CRM']['City'] ***(string, data from form)***
-    - 'Province' => $_POST['CRM']['Province'] ***(string, data from form)***
-    - 'HomePhone' => $_POST['CRM']['HomePhone'] ***(string, data from form)***
-    - 'Email' => $_POST['CRM']['Email'] ***(string, data from form)***
-    - 'Country' => "Canada" ***(string, defaut value 'Canada')***
-    - 'EmployerMonths' => $_POST['CRM']['EmployerMonths'] ***(integer, data from form)***
-    - 'Income' => $_POST['CRM']['Income'] ***(integer, data from form)***
-    - 'JobTitle' => $_POST['CRM']['JobTitle'] ***(string, data from form)***
-    - 'ResidenceCost' => $_POST['CRM']['ResidenceCost'] ***(float, data from form)***
-    - 'ResidenceYears' => $_POST['CRM']['ResidenceYears'] ***(integer, data from form)***
-    - 'EmployerName' => $_POST['CRM']['EmployerName'] ***(string, data from form)***
-    - 'ResidenceType' => $_POST['CRM']['ResidenceType'] ***(string, data from form)***
-    - 'EmploymentStatus' => $_POST['CRM']['EmploymentStatus'] ***(string, data from form)***
-    - 'EmployerYears' => $_POST['CRM']['EmployerYears'] ***(string, data from form)***
-    - 'VehicleType' => $_POST['CRM']['VehicleType'] ***(string, data from form)***
-    - 'VehicleBudget' => $_POST['CRM']['VehicleBudget'] ***(string, data from form)***
-    - 'PassCode' => '*******-****-****-****-**********' ***(string, your passcode for connect to CRM)***
-    - 'DOB' => $_POST['CRM']['DOB'] ***(string, data from form)***
-    - 'TradeIn' => $_POST['CRM']['TradeIn'] ***(string, data from form)*** ```
+    - 'MinimumBidPrice' => 0.00``` _(integer, default 0.00)_
+    ```- 'LeadTypeId' => 6``` _(integer, default 6)_
+    ```- 'IsTest' => false``` ***(bool, true/false)***
+    ```- 'FirstName' => $_POST['CRM']['FirstName']``` ***(string, data from form)***
+    ```- 'LastName' => $_POST['CRM']['LastName']``` ***(string, data from form)***
+    ```- 'AddressLine1' => $_POST['CRM']['AddressLine1']``` ***(string, data from form)***
+    ```- 'PostalCode' => $_POST['CRM']['PostalCode']``` ***(string, data from form)***
+    ```- 'City' => $_POST['CRM']['City']``` ***(string, data from form)***
+    ```- 'Province' => $_POST['CRM']['Province']``` ***(string, data from form)***
+    ```- 'HomePhone' => $_POST['CRM']['HomePhone']``` ***(string, data from form)***
+    ```- 'Email' => $_POST['CRM']['Email']``` ***(string, data from form)***
+    ```- 'Country' => "Canada"``` ***(string, defaut value 'Canada')***
+    ```- 'EmployerMonths' => $_POST['CRM']['EmployerMonths']``` ***(integer, data from form)***
+    ```- 'Income' => $_POST['CRM']['Income']``` ***(integer, data from form)***
+    ```- 'JobTitle' => $_POST['CRM']['JobTitle']``` ***(string, data from form)***
+    ```- 'ResidenceCost' => $_POST['CRM']['ResidenceCost']``` ***(float, data from form)***
+    ```- 'ResidenceYears' => $_POST['CRM']['ResidenceYears']``` ***(integer, data from form)***
+    ```- 'EmployerName' => $_POST['CRM']['EmployerName']``` ***(string, data from form)***
+    ```- 'ResidenceType' => $_POST['CRM']['ResidenceType']``` ***(string, data from form)***
+    ```- 'EmploymentStatus' => $_POST['CRM']['EmploymentStatus']``` ***(string, data from form)***
+    ```- 'EmployerYears' => $_POST['CRM']['EmployerYears']``` ***(string, data from form)***
+    ```- 'VehicleType' => $_POST['CRM']['VehicleType']``` ***(string, data from form)***
+    ```- 'VehicleBudget' => $_POST['CRM']['VehicleBudget']``` ***(string, data from form)***
+    ```- 'PassCode' => '*******-****-****-****-**********'``` ***(string, your passcode for connect to CRM)***
+    ```- 'DOB' => $_POST['CRM']['DOB']``` ***(string, data from form)***
+    ```- 'TradeIn' => $_POST['CRM']['TradeIn']``` ***(string, data from form)***
 ---
 * ```$options``` - array options to send post. Link to documentation: [https://www.w3schools.com/php/func_network_header.asp](https://www.w3schools.com/php/func_network_header.asp)
 * ```$context``` - creates and returns a stream context with any options supplied in options preset. Options (```$options```) must be an associative array of associative arrays in 			   the format ```$arr['wrapper']['option']``` = $value. It defaults to an empty array.
